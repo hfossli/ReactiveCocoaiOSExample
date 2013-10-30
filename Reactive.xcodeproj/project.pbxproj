@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023648E79F3E43039E0907FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B557A1135D4EB2860BB8F0 /* libPods.a */; };
+		4C73E6F718212DD900C020F9 /* AGFunctionLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C73E6F618212DD900C020F9 /* AGFunctionLoginViewController.m */; };
+		4C73E6F818212DD900C020F9 /* AGFunctionLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C73E6F618212DD900C020F9 /* AGFunctionLoginViewController.m */; };
 		4CD271C71820592B003009CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD271C61820592B003009CD /* Foundation.framework */; };
 		4CD271C91820592B003009CD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD271C81820592B003009CD /* CoreGraphics.framework */; };
 		4CD271CB1820592B003009CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD271CA1820592B003009CD /* UIKit.framework */; };
@@ -22,6 +25,18 @@
 		4CD271EB1820592B003009CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD271CA1820592B003009CD /* UIKit.framework */; };
 		4CD271F31820592B003009CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CD271F11820592B003009CD /* InfoPlist.strings */; };
 		4CD271F51820592B003009CD /* ReactiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD271F41820592B003009CD /* ReactiveTests.m */; };
+		4CD272051820697C003009CD /* AGUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD272041820697C003009CD /* AGUserManager.m */; };
+		4CD272061820697C003009CD /* AGUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD272041820697C003009CD /* AGUserManager.m */; };
+		4CD27209182069A4003009CD /* AGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD27208182069A4003009CD /* AGUser.m */; };
+		4CD2720A182069A4003009CD /* AGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD27208182069A4003009CD /* AGUser.m */; };
+		4CD2720D182069AD003009CD /* AGSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2720C182069AD003009CD /* AGSettings.m */; };
+		4CD2720E182069AD003009CD /* AGSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2720C182069AD003009CD /* AGSettings.m */; };
+		4CD2721118206ACB003009CD /* AGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2721018206ACB003009CD /* AGLoginViewController.m */; };
+		4CD2721218206ACB003009CD /* AGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2721018206ACB003009CD /* AGLoginViewController.m */; };
+		4CD2721518207403003009CD /* AGCrankVoltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2721418207403003009CD /* AGCrankVoltimeterViewController.m */; };
+		4CD2721618207404003009CD /* AGCrankVoltimeterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD2721418207403003009CD /* AGCrankVoltimeterViewController.m */; };
+		4CD27219182126E6003009CD /* AGImperativeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD27218182126E6003009CD /* AGImperativeLoginViewController.m */; };
+		4CD2721A182126E6003009CD /* AGImperativeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD27218182126E6003009CD /* AGImperativeLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00B557A1135D4EB2860BB8F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EDE060BF814DF28D21CAB7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4C73E6F518212DD900C020F9 /* AGFunctionLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGFunctionLoginViewController.h; sourceTree = "<group>"; };
+		4C73E6F618212DD900C020F9 /* AGFunctionLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGFunctionLoginViewController.m; sourceTree = "<group>"; };
 		4CD271C31820592B003009CD /* Reactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD271C61820592B003009CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CD271C81820592B003009CD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +74,18 @@
 		4CD271F01820592B003009CD /* ReactiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactiveTests-Info.plist"; sourceTree = "<group>"; };
 		4CD271F21820592B003009CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CD271F41820592B003009CD /* ReactiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveTests.m; sourceTree = "<group>"; };
+		4CD272031820697C003009CD /* AGUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGUserManager.h; sourceTree = "<group>"; };
+		4CD272041820697C003009CD /* AGUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGUserManager.m; sourceTree = "<group>"; };
+		4CD27207182069A4003009CD /* AGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGUser.h; sourceTree = "<group>"; };
+		4CD27208182069A4003009CD /* AGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGUser.m; sourceTree = "<group>"; };
+		4CD2720B182069AD003009CD /* AGSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSettings.h; sourceTree = "<group>"; };
+		4CD2720C182069AD003009CD /* AGSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSettings.m; sourceTree = "<group>"; };
+		4CD2720F18206ACB003009CD /* AGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLoginViewController.h; sourceTree = "<group>"; };
+		4CD2721018206ACB003009CD /* AGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLoginViewController.m; sourceTree = "<group>"; };
+		4CD2721318207403003009CD /* AGCrankVoltimeterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGCrankVoltimeterViewController.h; sourceTree = "<group>"; };
+		4CD2721418207403003009CD /* AGCrankVoltimeterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGCrankVoltimeterViewController.m; sourceTree = "<group>"; };
+		4CD27217182126E6003009CD /* AGImperativeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGImperativeLoginViewController.h; sourceTree = "<group>"; };
+		4CD27218182126E6003009CD /* AGImperativeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGImperativeLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +96,7 @@
 				4CD271C91820592B003009CD /* CoreGraphics.framework in Frameworks */,
 				4CD271CB1820592B003009CD /* UIKit.framework in Frameworks */,
 				4CD271C71820592B003009CD /* Foundation.framework in Frameworks */,
+				023648E79F3E43039E0907FA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +120,7 @@
 				4CD271EE1820592B003009CD /* ReactiveTests */,
 				4CD271C51820592B003009CD /* Frameworks */,
 				4CD271C41820592B003009CD /* Products */,
+				39EDE060BF814DF28D21CAB7 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +140,7 @@
 				4CD271C81820592B003009CD /* CoreGraphics.framework */,
 				4CD271CA1820592B003009CD /* UIKit.framework */,
 				4CD271E81820592B003009CD /* XCTest.framework */,
+				00B557A1135D4EB2860BB8F0 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +154,20 @@
 				4CD271DB1820592B003009CD /* Main_iPad.storyboard */,
 				4CD271DE1820592B003009CD /* AGViewController.h */,
 				4CD271DF1820592B003009CD /* AGViewController.m */,
+				4CD2720F18206ACB003009CD /* AGLoginViewController.h */,
+				4CD2721018206ACB003009CD /* AGLoginViewController.m */,
+				4CD27217182126E6003009CD /* AGImperativeLoginViewController.h */,
+				4CD27218182126E6003009CD /* AGImperativeLoginViewController.m */,
+				4C73E6F518212DD900C020F9 /* AGFunctionLoginViewController.h */,
+				4C73E6F618212DD900C020F9 /* AGFunctionLoginViewController.m */,
+				4CD2721318207403003009CD /* AGCrankVoltimeterViewController.h */,
+				4CD2721418207403003009CD /* AGCrankVoltimeterViewController.m */,
+				4CD272031820697C003009CD /* AGUserManager.h */,
+				4CD272041820697C003009CD /* AGUserManager.m */,
+				4CD27207182069A4003009CD /* AGUser.h */,
+				4CD27208182069A4003009CD /* AGUser.m */,
+				4CD2720B182069AD003009CD /* AGSettings.h */,
+				4CD2720C182069AD003009CD /* AGSettings.m */,
 				4CD271E11820592B003009CD /* Images.xcassets */,
 				4CD271CD1820592B003009CD /* Supporting Files */,
 			);
@@ -162,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD271F81820592B003009CD /* Build configuration list for PBXNativeTarget "Reactive" */;
 			buildPhases = (
+				B396A495C41C40D69019EA37 /* Check Pods Manifest.lock */,
 				4CD271BF1820592B003009CD /* Sources */,
 				4CD271C01820592B003009CD /* Frameworks */,
 				4CD271C11820592B003009CD /* Resources */,
+				F5E41598DE8B4D24825EAF70 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,14 +299,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B396A495C41C40D69019EA37 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E41598DE8B4D24825EAF70 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CD271BF1820592B003009CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C73E6F718212DD900C020F9 /* AGFunctionLoginViewController.m in Sources */,
+				4CD272051820697C003009CD /* AGUserManager.m in Sources */,
 				4CD271D71820592B003009CD /* AGAppDelegate.m in Sources */,
+				4CD2721118206ACB003009CD /* AGLoginViewController.m in Sources */,
 				4CD271E01820592B003009CD /* AGViewController.m in Sources */,
+				4CD27209182069A4003009CD /* AGUser.m in Sources */,
 				4CD271D31820592B003009CD /* main.m in Sources */,
+				4CD27219182126E6003009CD /* AGImperativeLoginViewController.m in Sources */,
+				4CD2720D182069AD003009CD /* AGSettings.m in Sources */,
+				4CD2721518207403003009CD /* AGCrankVoltimeterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +354,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C73E6F818212DD900C020F9 /* AGFunctionLoginViewController.m in Sources */,
+				4CD2721218206ACB003009CD /* AGLoginViewController.m in Sources */,
+				4CD272061820697C003009CD /* AGUserManager.m in Sources */,
+				4CD2720E182069AD003009CD /* AGSettings.m in Sources */,
+				4CD2721618207404003009CD /* AGCrankVoltimeterViewController.m in Sources */,
+				4CD2720A182069A4003009CD /* AGUser.m in Sources */,
 				4CD271F51820592B003009CD /* ReactiveTests.m in Sources */,
+				4CD2721A182126E6003009CD /* AGImperativeLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +487,7 @@
 		};
 		4CD271F91820592B003009CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EDE060BF814DF28D21CAB7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -403,6 +501,7 @@
 		};
 		4CD271FA1820592B003009CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39EDE060BF814DF28D21CAB7 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -475,6 +574,7 @@
 				4CD271FA1820592B003009CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CD271FB1820592B003009CD /* Build configuration list for PBXNativeTarget "ReactiveTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +583,7 @@
 				4CD271FD1820592B003009CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

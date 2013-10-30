@@ -7,6 +7,8 @@
 //
 
 #import "AGViewController.h"
+#import "ReactiveCocoa.h"
+#import "AGUserManager.h"
 
 @interface AGViewController ()
 
@@ -18,6 +20,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
